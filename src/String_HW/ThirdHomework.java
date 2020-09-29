@@ -142,7 +142,7 @@ public class ThirdHomework {
 
         System.out.println("Abbreviation is : " + firstAbbrev + secondAbbrev + thirdAbbrev);
 
-         //testgit
+         //testgit // correction homework - 3
 
 
 
