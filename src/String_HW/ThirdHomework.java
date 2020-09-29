@@ -19,25 +19,29 @@ public class ThirdHomework {
 
         String fullName = "Ajmine Joy";
 
-        String firstName = "Ajmine";
+        int indexOfSpace = fullName.indexOf(" ");
 
-        int len = firstName.length();
+        String firstName10 = fullName.substring(0, indexOfSpace);
+        String lastName10 = fullName.substring(indexOfSpace);
 
-        System.out.println("The length of my first name is : " + len);
+        int len10 = firstName10.length();
 
-        String lastName = "Joy";
+        System.out.println("The length of my first name is : " + len10);
 
-        boolean startsWithK = lastName.startsWith("K");
+        boolean startWithK = lastName10.toUpperCase().startsWith("K");
 
-        System.out.println("Does my last name start with 'K' : " + startsWithK);
+        System.out.println("Does my last name start with K : " + startWithK);
 
-        char lastAlphabet = firstName.charAt(5);
+        int fNameLastIndex = len10 - 1;
 
-        System.out.println("The last alphabet of my first name is : " + lastAlphabet);
+        char fNameLastA = firstName10.charAt(fNameLastIndex);
 
-        boolean endsWithM = lastName.endsWith("M");
+        System.out.println("The last alphabet of my first name is : " + fNameLastA);
+
+        boolean endsWithM = lastName10.toUpperCase().endsWith("M");
 
         System.out.println("Does my last name end with M : " + endsWithM);
+
 
 
         /**
@@ -66,15 +70,11 @@ public class ThirdHomework {
          * Calculate the length of your first name, without using length() method of String class.
          */
 
-        String firstName1 = "Ajmine";
 
-        int indexOfe = firstName1.lastIndexOf("e");
+        String[] fNameLetters = firstName10.split("");
+        int fNameLength = fNameLetters.length;
 
-        int newLength = indexOfe+1;
-
-        System.out.println("The length of my first name is : " + newLength);
-
-        // we know that the length of a string is always lastIndex + 1
+        System.out.println("The length of my first name is : " + fNameLength);
 
         /**
          *
@@ -105,11 +105,21 @@ public class ThirdHomework {
 
         System.out.println(threeWordsSentence);
 
-        threeWordsSentence = threeWordsSentence.toLowerCase();
-        threeWordsSentence = threeWordsSentence.replace("h", "H");
-        threeWordsSentence = threeWordsSentence.replace("n", "N");
-        threeWordsSentence = threeWordsSentence.replace("y", "Y");
+        String[] wordsArray = threeWordsSentence.toLowerCase().split(" ");
 
+        String f1 = wordsArray[0].substring(0,1).toUpperCase();   // H
+        String l1 = wordsArray[0].substring(1);    // appy
+        wordsArray[0] = f1 + l1;                   // Happy
+
+        String f2 = wordsArray[1].substring(0,1).toUpperCase();
+        String l2 = wordsArray[1].substring(1);
+        wordsArray[1] = f2 + l2;              // New
+
+        String f3 = wordsArray[2].substring(0,1).toUpperCase();
+        String l3 = wordsArray[2].substring(1);
+        wordsArray[2] = f3 + l3;               // Year
+
+        threeWordsSentence = wordsArray[0] + wordsArray[1] + wordsArray[2];
 
         System.out.println(threeWordsSentence);
 
@@ -132,7 +142,7 @@ public class ThirdHomework {
 
         System.out.println("Abbreviation is : " + firstAbbrev + secondAbbrev + thirdAbbrev);
 
-         //tesgttt
+         //testgit
 
 
 
