@@ -23,11 +23,12 @@ public class FourthHomework {
         double studentPercentage = studentScore/maxScore*100;
         System.out.println("Student's score in percentage is : " + studentPercentage);
 
-        if (studentPercentage>90) {
-            System.out.println("Student's Grade = A");
+        if (studentPercentage>=91) {
+            System.out.println("Student's Grade is A");
         } else {
-            System.out.println("Student's Grade is not A");
+            System.out.println("Student's Grade is below A");
         }
+
 
 
 

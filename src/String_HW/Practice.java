@@ -195,10 +195,15 @@ public class Practice {
         System.out.println(Arrays.toString(splitwords));
 
 
+        //for (int i=1 ; i<=5 ; i++) {
+            //System.out.println("Hello - " +i);
 
 
+        String[] names = {"Happy, Sad, Peace, Joy"};
 
-
+        for (String name111 : names) {
+            System.out.println(name111);
+        }
 
 
 
