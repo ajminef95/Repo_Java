@@ -74,10 +74,11 @@ public class SeventhHomework {
             for (int j=0; j<arr.length; j++) {
                 if (arr[i].equalsIgnoreCase(arr[j]) && i!=j) {
                     System.out.println(arr[i].equalsIgnoreCase(arr[j]));
-                    break;
+
                 } else {
                     System.out.println(i!=j);
-                    break;
+                    break;                       // this method needs a minor fix
+                                                 // please help me identify what im doing wrong here
                 }
 
             }
