@@ -47,15 +47,12 @@ public class SeventhHomework {
 
         for (int i =0; i<name.length(); i++) {
 
-            reverseString = name.substring(i, i+1) + reverseString;
+            reverseString = name.substring(i, i + 1) + reverseString;
 
         }
+             givenString = name;
 
-        for (int j=0; j<name.length(); j++) {
-
-            givenString = name;
-
-        } if (givenString.equalsIgnoreCase(reverseString)) {
+        if (givenString.equalsIgnoreCase(reverseString)) {
             result = true;
         } else {
             result = false;
@@ -68,24 +65,24 @@ public class SeventhHomework {
     //4. Write a method to print(no return) the duplicate values in a given String array
 
 
-    public void duplicateValues  (String[] arr) {
+    //public void duplicateValues  (String[] arr) {
 
-        for (int i=0; i<arr.length; i++) {
-            for (int j=0; j<arr.length; j++) {
-                if (arr[i].equalsIgnoreCase(arr[j]) && i!=j) {
-                    System.out.println(arr[i].equalsIgnoreCase(arr[j]));
+        //for (int i=0; i<arr.length; i++) {
+            //for (int j=0; j<arr.length; j++) {
+                //if (arr[i].equalsIgnoreCase(arr[j]) && i!=j) {
+                    //System.out.println(arr[i].equalsIgnoreCase(arr[j]));
 
-                } else {
-                    System.out.println(i!=j);
-                    break;                       // this method needs a minor fix
+                //} else {
+                    //System.out.println(i!=j);
+                    //break;                       // this method needs a minor fix
                                                  // please help me identify what im doing wrong here
-                }
+                //}
 
-            }
+            //}
 
-        }
+        //}
 
-    }
+    //}
 
     // 5. Write a method to print(no return) the common values between two arrays (string arrays)
     // Input arrays:
