@@ -42,7 +42,7 @@ public class SeventhHomework {
     public boolean isTheStringPalindrome (String name) {
 
         boolean result = false;
-        String givenString = "";
+        String givenString = name;
         String reverseString = "";
 
         for (int i =0; i<name.length(); i++) {
@@ -50,7 +50,6 @@ public class SeventhHomework {
             reverseString = name.substring(i, i + 1) + reverseString;
 
         }
-             givenString = name;
 
         if (givenString.equalsIgnoreCase(reverseString)) {
             result = true;

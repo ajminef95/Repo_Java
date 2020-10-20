@@ -13,7 +13,7 @@ public class Practice {
         int num = 11;
         boolean isEven = false;
 
-        int remainder = num%2;
+        int remainder = num % 2;
 
         isEven = remainder == 0;
 
@@ -22,41 +22,41 @@ public class Practice {
 
         int creditScore = 600;                      //Ternary Operator - (? : )
 
-        double mortgageRate = creditScore>650?1.1:2.0;
+        double mortgageRate = creditScore > 650 ? 1.1 : 2.0;
 
         System.out.println("if creditScore is " + creditScore + " then the mortgageRate will be " + mortgageRate);
 
         int time = 19;
 
-        String Greeting = time>12?"Good Evening":"Good Night";
+        String Greeting = time > 12 ? "Good Evening" : "Good Night";
 
-        System.out.println("if time is " + time + " then say " +Greeting);
+        System.out.println("if time is " + time + " then say " + Greeting);
 
-        int myResult = creditScore>700?time:time++;
+        int myResult = creditScore > 700 ? time : time++;
         System.out.println("if Credit Score is " + creditScore + " then time is " + time);
         System.out.println("My Result is " + myResult);
 
-        boolean res = time<10?creditScore>700:myResult<20;
+        boolean res = time < 10 ? creditScore > 700 : myResult < 20;
         System.out.println(res);
 
         int var1 = 10;
-        var1+=5;     // adding the value by 5
+        var1 += 5;     // adding the value by 5
 
         System.out.println(var1);
 
-        var1-=2;
+        var1 -= 2;
 
         System.out.println(var1);
 
-        var1*=10;
+        var1 *= 10;
 
         System.out.println(var1);
 
-        var1/=13;
+        var1 /= 13;
 
         System.out.println(var1);
 
-        var1%=4;
+        var1 %= 4;
 
         System.out.println(var1);
 
@@ -143,7 +143,7 @@ public class Practice {
 
         System.out.println(cityName);
 
-        String cityName1 =    " New York City in the Town"     ;
+        String cityName1 = " New York City in the Town";
 
         String cityNameTrim = cityName1.trim();
 
@@ -151,11 +151,11 @@ public class Practice {
 
         System.out.println(cityNameTrim);
 
-       String subFrom10 = cityName1.substring(10);
+        String subFrom10 = cityName1.substring(10);
 
         System.out.println(subFrom10);
 
-        String subFrom10To15 = cityName1.substring(10,15);
+        String subFrom10To15 = cityName1.substring(10, 15);
 
         System.out.println(subFrom10To15);
 
@@ -168,7 +168,7 @@ public class Practice {
 
         int lastSpaceIndex = statement.lastIndexOf(" ");
 
-        String lastWord = statement.substring(lastSpaceIndex+1);
+        String lastWord = statement.substring(lastSpaceIndex + 1);
 
         int lastWordLength = lastWord.length();
 
@@ -196,7 +196,7 @@ public class Practice {
 
 
         //for (int i=1 ; i<=5 ; i++) {
-            //System.out.println("Hello - " +i);
+        //System.out.println("Hello - " +i);
 
 
         String[] names = {"Happy, Sad, Peace, Joy"};
@@ -207,23 +207,24 @@ public class Practice {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     }
 
 
+    public int checkVowelCount(String vowels) {
+        String statementX = "have a great day to you";
+        int vowelCount = 0;
+
+        for (int i = 0; i < vowels.length(); i++) {
+            if (vowels.charAt(i) == 'a' || vowels.charAt(i) == 'e' || vowels.charAt(i) == ('i') || vowels.charAt(i) == ('o') || vowels.charAt(i) == ('u')) {
+                vowelCount++;
+            }
+
+        }
+
+        return vowelCount;
 
 
+    }
 
 
 

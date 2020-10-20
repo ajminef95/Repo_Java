@@ -14,7 +14,7 @@ public class myMainforSeventhHW {
        double result = h7.addAllNumbersInArray(values);
         System.out.println(result);       //no.1 method is working smoothly.
 
-       int number = 9;
+       int number = 31;
        boolean isIt = h7.isInputNumberPrime(number);
         System.out.println(isIt);     // no.2 method is working smoothly.
 
@@ -28,8 +28,8 @@ public class myMainforSeventhHW {
 
 
 
-        String[] arr1 = {"hello", "happy", "peace"};
-        String[] arr2 = {"hello", "happy", "peace"};
+        String[] arr1 = {"hello", "happy", "peace", "enjoy"};
+        String[] arr2 = {"hello", "peace", "happy", "enjoy"};
 
         h7.commonValues(arr1, arr2);   // no.5 method is working smoothly.
 

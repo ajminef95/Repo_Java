@@ -27,6 +27,8 @@ public class FourthHomework {
             System.out.println("Student's Grade is A");
         } else {
             System.out.println("Student's Grade is below A");
+        } if (studentPercentage>=81 && studentPercentage>80) {
+            System.out.println("Student's Grade is B");
         }
 
 
