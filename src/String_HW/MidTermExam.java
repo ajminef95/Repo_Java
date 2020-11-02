@@ -18,25 +18,17 @@ public class MidTermExam {
 
         }
 
-        return arr;
 
-
-    }
-
-
-    public int smallestPositiveInteger (int[] array) {
-
-        for (int i = 0; i < array.length; i++) {
-
-
-
-        }
-
-
-        // was unable to solve
-
+            return arr;
 
     }
+
+
+    //public int smallestPositiveInteger (int[] array)
+    // unable to solve
+
+
+
 
 
     public void pointsChargedAgainst (int userSpeed) {
