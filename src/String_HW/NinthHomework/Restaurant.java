@@ -5,7 +5,7 @@ public class Restaurant {
 
      String name = "Mythical Kitchen";
      int guestCapacity = 100;
-     static int guestCount;
+     int guestCount;
 
 
      public Restaurant (String Rname, int RGuestCapacity) {
@@ -31,9 +31,13 @@ public class Restaurant {
      public void seatsParty (int seatParty) {
          if (seatParty > 0 && seatParty <= guestCapacity - guestCount) {
          guestCount = guestCount + seatParty;
+             System.out.println("Seats Reserved: " + guestCount);
+
+         } else {
+             System.out.println("invalid 'seat' number");
          }
 
-         System.out.println("Seats Reserved: " + seatParty);
+
 
 
      }
@@ -42,10 +46,13 @@ public class Restaurant {
      public void removeParty (int removingParty) {
          if (removingParty > 0 && removingParty <= guestCount) {
          guestCount = guestCount - removingParty;
+             System.out.println("Seats Removed: " + removingParty);
 
+         } else {
+             System.out.println("invalid 'removeParty' number");
          }
 
-         System.out.println("Seats Removed: " + removingParty);
+
 
 
      }

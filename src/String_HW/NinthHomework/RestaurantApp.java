@@ -11,8 +11,8 @@ public class RestaurantApp {
 
 
         rest.SeatsAvailable();
-        rest.seatsParty(70);
-        rest.removeParty(20);
+        rest.seatsParty(-50);
+        rest.removeParty(-10);
         rest.printRestaurantSummary();
 
 

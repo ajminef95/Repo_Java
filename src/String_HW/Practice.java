@@ -227,5 +227,57 @@ public class Practice {
     }
 
 
+    //arrayList students = ["student1", "student 10"];
+    //arrayList  Deps = [4 departments]
+    // arrayList courses = [courses]
+    //switch
+    //
+    // int student1ID = 2389292
+    // all students, same process
+    // int student2ID = 82938974
+    // course.add(3 credit)
+    // int student balance;
+    // int static admin fee = 150;
+    // int credit fee = 250 * credit;
+
+    // for i = 0; i = credit <= 21; i = ++
+    //{ "students billed per credit" }
+
+    // public students (String name, String address, String phone) {
+    // Scanner = new Scanner(System.In);
+    // arraylist.add (name)
+    // student ID = studentID++;
+
+    // sout ("student pays 100% student fee');
+
+    // if (course credit (i) <= 21) {
+    // sout ( " students can enroll " )
+    // else if (course credit > 21) {
+    //sout (error)
+
+
+
+
+    // public int studentRemove (int course) {
+     // course.remove(course)
+    //Scanner = new Scanner(System.In);
+    // public static int[] removeNumbers(int[] inArray, int inNum) {
+    //    int j = 0;
+    //    int arraySize = 0;
+    //    for (int i = 0; i < inArray.length; i++) {
+    //        if (inArray[i] != inNum) {
+    //            arraySize++;    [OPTIONAL STRAT]
+
+
+    // public void viewBalance (student) {
+    //
+    // Scanner student balance = new Scanner(System.In)
+    // balance = balance + admin fee + credit;
+    // sout ( balance );
+
+
+
+
+
 
 }
